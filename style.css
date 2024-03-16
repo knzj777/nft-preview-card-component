@@ -133,11 +133,13 @@ body {
 
 .container__content-flex {
   display: flex;
-  justify-content: flex-start;
-  gap: 6.7rem;
   font-size: 16px;
   margin: 0.3rem 0 0.5rem 0;
   font-weight: var(--fw-normal);
+}
+
+.container__content-flex p:nth-child(2) {
+   margin-left: auto;
 }
 
 .container__content-span-flex {
@@ -219,6 +221,8 @@ body {
 /* Attribution */
 
 .attribution {
+  position:sticky;
+  left: 30%;
   font-size: 11px;
   text-align: center;
   margin-top: 3rem;
