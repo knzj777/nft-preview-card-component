@@ -188,7 +188,6 @@ body {
 
 .container__content-container-author_author {
   font-size: 16px;
-  margin-bottom: 5px;
 }
 
 .container__content-container-author_author span {
@@ -223,9 +222,9 @@ body {
 .attribution {
   position:sticky;
   left: 30%;
+  transform: translateY(50px);
   font-size: 11px;
   text-align: center;
-  margin-top: 3rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
